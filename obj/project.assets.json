@@ -654,7 +654,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameWorkCore.InMemory"
+      "Microsoft.EntityFrameWorkCore.InMemory >= 3.1.2"
     ]
   },
   "packageFolders": {
@@ -698,7 +698,7 @@
         "dependencies": {
           "Microsoft.EntityFrameWorkCore.InMemory": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[3.1.2, )"
           }
         },
         "imports": [
