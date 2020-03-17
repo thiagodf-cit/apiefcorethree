@@ -2,11 +2,10 @@
 *~
 
 # build
-Obj/
-obj/
-Bin/
-bin/
-# packages/
+[Oo]bj/
+[Bb]in/
+[Dd]ebug/
+packages/
 TestResults/
 
 # globs
@@ -49,7 +48,6 @@ Thumbs.db
 coverage.json
 coverage.opencover.xml
 coverage.info
-/Raizen.OrderManagement.Portal.WebApi/*.user
 
 # Ignore bak files
 *.bak
