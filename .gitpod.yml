@@ -10,9 +10,9 @@ image:
 # 
 # Ports to expose on workspace startup (optional)
 ports:
-  - port: 8000
+  - port: 5000
     onOpen: open-preview
-
+    
 # 
 # Command to add your extensions
 vscode:
