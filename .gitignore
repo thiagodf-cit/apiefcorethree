@@ -2,8 +2,10 @@
 *~
 
 # build
-[Oo]bj/
-[Bb]in/
+Obj/
+obj/
+Bin/
+bin/
 # packages/
 TestResults/
 
