@@ -12,6 +12,10 @@ image:
 ports:
   - port: 5000
     onOpen: open-preview
+  - port: 5900
+    onOpen: open-preview
+  - port: 6080
+    onOpen: open-preview
     
 # 
 # Command to add your extensions
@@ -22,5 +26,5 @@ vscode:
     - formulahendry.dotnet-test-explorer@0.7.1:aMBBHLwB96Y4mOqZ8ucTKw==
     - redhat.vscode-yaml@0.6.1:Lngx1V8Nd6ig2dgVcDntyQ==
     - adrianwilczynski.asp-net-core-switcher@2.0.2:/OcpAa9EZqn0U4NG+fDHpg==# 
-    - adrianwilczynski.asp-net-core-snippet-pack@1.50.2:D1uvqtKCfzRNI6pITs3iXw==# Command to start on workspace startup (optional)
+    - adrianwilczynski.asp-net-core-snippet-pack@1.50.2:D1uvqtKCfzRNI6pITs3iXw==#
     - leo-labs.dotnet@1.0.3:YR8ZjeV+0/Ut87luga8WGw==
