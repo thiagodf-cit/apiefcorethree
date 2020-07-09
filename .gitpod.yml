@@ -11,11 +11,11 @@ image:
 # Ports to expose on workspace startup (optional)
 ports:
   - port: 5000
-    onOpen: open-preview
+    onOpen: ignore
   - port: 5900
-    onOpen: open-preview
+    onOpen: ignore
   - port: 6080
-    onOpen: open-preview
+    onOpen: ignore
     
 # 
 # Command to add your extensions
